@@ -358,9 +358,9 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="https://forms.gle/xvMrmHftUufYgiH9A">Pre-workshop Survey</a></p>
-<p><!--<a href="https://forms.gle/YuKrHREx5AQjBdnr8"> -->Day 1 Exit Survey</p>
-<p><a href="https://forms.gle/4BDnTMw7G1QhvP6Q9">Post-workshop Survey</a></p>
+<p><a href="https://forms.gle/dmDvidBehZtZLx6h6">Pre-workshop Survey</a></p>
+<p><a href="https://forms.gle/UUatZbnjhVxsiCRE7">Day 1 Exit Survey</p>
+<p>Post-workshop Survey</p>
 {% endif %}
 
 <hr/>
