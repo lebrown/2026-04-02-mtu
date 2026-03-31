@@ -137,6 +137,7 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
+  {% comment %}
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
@@ -145,6 +146,7 @@ address.
     What3Words location:
     <a href="https://what3words.com/{{page.what3words}}">///{{page.what3words}}</a>.
   {%endif %}
+  {% endcomment %}
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
