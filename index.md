@@ -9,7 +9,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45=7"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-88"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Apr. 2, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Apr. 2, 9, 16, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "4:00 pm - 5:15 pm ET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2026-04-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2026-04-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -100,6 +100,8 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
+
+</blockquote>
 
 {% comment %}
 AUDIENCE
