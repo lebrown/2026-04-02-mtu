@@ -137,13 +137,13 @@ def check_humandate(date):
 
 
 @look_for_fixme
-def check_humantime(time):
-    """
-    'humantime' is a human-readable start and end time for the
-    workshop, such as '09:00 - 16:00'.
-    """
+# def check_humantime(time):
+#     """
+#     'humantime' is a human-readable start and end time for the
+#     workshop, such as '09:00 - 16:00'.
+#     """
 
-    return bool(re.match(HUMANTIME_PATTERN, time.replace(' ', '')))
+#     return bool(re.match(HUMANTIME_PATTERN, time.replace(' ', '')))
 
 
 def check_date(this_date):
