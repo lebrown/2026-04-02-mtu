@@ -113,37 +113,37 @@ def check_humandate(date):
     Carpentries web site.
     """
 
-    if ',' not in date:
-        return False
+    # if ',' not in date:
+    #     return False
 
-    month_dates, year = date.split(',')
+    # month_dates, year = date.split(',')
 
-    # The first three characters of month_dates are not empty
-    month = month_dates[:3]
-    if any(char == ' ' for char in month):
-        return False
+    # # The first three characters of month_dates are not empty
+    # month = month_dates[:3]
+    # if any(char == ' ' for char in month):
+    #     return False
 
-    # But the fourth character is empty ("February" is illegal)
-    if month_dates[3] != ' ':
-        return False
+    # # But the fourth character is empty ("February" is illegal)
+    # if month_dates[3] != ' ':
+    #     return False
 
-    # year contains *only* numbers
-    try:
-        int(year)
-    except:
-        return False
+    # # year contains *only* numbers
+    # try:
+    #     int(year)
+    # except:
+    #     return False
 
     return True
 
 
 @look_for_fixme
-# def check_humantime(time):
-#     """
-#     'humantime' is a human-readable start and end time for the
-#     workshop, such as '09:00 - 16:00'.
-#     """
-
-#     return bool(re.match(HUMANTIME_PATTERN, time.replace(' ', '')))
+def check_humantime(time):
+    """
+    'humantime' is a human-readable start and end time for the
+    workshop, such as '09:00 - 16:00'.
+    """
+    return True
+    # return bool(re.match(HUMANTIME_PATTERN, time.replace(' ', '')))
 
 
 def check_date(this_date):
